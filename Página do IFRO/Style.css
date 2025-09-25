@@ -1,15 +1,116 @@
+/*Aqui estilizamos a tag Body. Cor de fundo branco, familía de fontes e altura da linha.*/
 body {
-    background-color:#FFFFFF ;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:#FFFFFF;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.6;
 }
 
+.container {
+    margin: 0 auto;
+    width: 960px;
+
+}
+/*Aqui estilizamos a cor de fundo (verde) do cabeçalho da página.*/
 .header {
-    background-color:#006400 ;
+    background-color: #006400;
+}
+/*Aqui estilizamos a tag H4 que está dentro do cabeçalho (header).*/
+.header h4 {
+    color:#FFFFFF;
+    margin-left: 20px;
+}
+/*Aqui estilizamos o texto da tag a, dentro da tag h1 e classe header. Margem esquerda de 20px e sem o sublinhado do link.*/
+.header h1 a{
+    color: #FFFFFF;
+    margin-left: 20px;
+    text-decoration: none;
+}
+/*Aqui estilizamos a tag h3 do cabeçalho, cor do texto branco e margem esquerda de 20px.*/
+.header h3{
+    color:#FFFFFF;
+    margin-left: 20px;
+}
+/*Aqui estamos estilizando a tag a dentro da tag h1 para o texto mudar de cor quando o mouse passar por cima. O texto fica preto com o fundo branco.*/
+.header h1 a:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+/*Aqui estilizamos a barra lateral, fundo branco, borda superior de 10px verde e posicionamento à esquerda. a margem interna de 10px de todos os lados. Largura de 200px.*/
+.sidebar{
+    background-color: #FFFFFF;
+    border-top: 10px solid #006400;
+    float: left;
+    padding: 10px;
+    width: 200px;
+}
+/*Aqui estilizamos a imagem da barra lateral, margens esquerda e direita automáticas e o display block para fixar a imagem. Margem externa inferior de 20px, largura de 150px e altura de 150px.*/
+.sidebar img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+/*Aqui mudamos o tamanho do texto do título da barra lateral para 14px e cor verde, e a margem externa superior de 20px.*/
+.sidebar h3{
+    font-size: 14px;
+    color: #006400;
+    margin-top: 20px;
+}
+/*Aqui mudamos o tamanho da fonte dos itens da barra lateral para 12px.*/
+.sidebar ol{
+    font-size: 12px;
+}
+/*Aqui configuramos a cor de fundo da section (parte onde ficarão as notícias) para branco, o posicionamento do lado direito e a largura da section de 700px.*/
+.section {
+    background-color: #FFFFFF;
+    float: right;
+    width: 700px;
+}
+/*Aqui modificamos a cor de fundo do título das notícias para cinza.*/
+.header2 {
+    background-color: #DCDCDC;
+}
+/*Aqui estilizamos a cor do título das notícias para verde, as margens inferior e superior automáticas, margem esquerda externa de 10px, margem interna de 5px de todos os lados, fonte tamanho 20px e sem negrito.*/
+.header2 h2{
+    color: #006400;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: normal;
+}
+/*Aqui mudamos o fundo do article para branco, margem inferior externa de 20px e margem interna de todos os lados de 10px*/
+.article {
+    background-color: #FFFFFF;
+    border-bottom: 20px;
+    padding: 10px;
+}
+/*Aqui inserimos uma borda de 1px preta de linha solida ao redor da imagem.
+Posicionamos a imagem à esquerda . Margens externas superior e direita de 10px,e 
+inferior e esquerda de 0. Largura de 200px e altura de 200px*/
+.article img{
+    border: 1px solid #000000;
+    float: left;
+    margin: 10px 10px 0 0;
+    width: 200px;
+    height: 200px;
+}
+/*Aqui estamos estilizando a cor do texto da noticia dentro da tag p.*/
+.article p{
+    color: #000000;
 }
 
-.header h4{
-    background-color:#FFFFFF ;
-    margin-left: 20PX;
-    text-decoration: none;
+.article a{
+    color:#4682b4;
+    font-weight: bold;
+}
+/*Aqui estilizamos o rodapé sem elemento dos lados, tamanho do texto 12px, cor verde centralizado.*/
+.clear{
+    clear: both;
+    font-size: 12px;
+    color:#006400;
+    text-align: center;
 }
