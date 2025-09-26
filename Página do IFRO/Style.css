@@ -87,6 +87,7 @@ body {
     background-color: #FFFFFF;
     border-bottom: 20px;
     padding: 10px;
+    margin-bottom: 80px;
 }
 /*Aqui inserimos uma borda de 1px preta de linha solida ao redor da imagem.
 Posicionamos a imagem à esquerda . Margens externas superior e direita de 10px,e 
@@ -94,9 +95,9 @@ inferior e esquerda de 0. Largura de 200px e altura de 200px*/
 .article img{
     border: 1px solid #000000;
     float: left;
-    margin: 10px 10px 0 0;
+    margin: 10px 10px 0 -10px;
     width: 200px;
-    height: 200px;
+    height: 250px;
 }
 /*Aqui estamos estilizando a cor do texto da noticia dentro da tag p.*/
 .article p{
