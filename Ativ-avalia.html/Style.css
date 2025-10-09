@@ -3,6 +3,8 @@ body {
     background-color:#FFFFFF;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.6;
+    background-image: url('fundo\ cosmico.jpg');
+
 }
 
 .container {
@@ -37,26 +39,27 @@ body {
 }
 /*Aqui estilizamos a barra lateral, fundo branco, borda superior de 10px verde e posicionamento à esquerda. a margem interna de 10px de todos os lados. Largura de 200px.*/
 .sidebar{
-    background-color: #FFFFFF;
-    border-top: 10px solid #006400;
+    background-color: #361735;
+    border-top: 10px solid #361735;
     float: left;
     padding: 10px;
     width: 200px;
 }
 /*Aqui estilizamos a imagem da barra lateral, margens esquerda e direita automáticas e o display block para fixar a imagem. Margem externa inferior de 20px, largura de 150px e altura de 150px.*/
 .sidebar img{
-    margin-left: auto;
+    margin-left: -8px;
     margin-right: auto;
     display: block;
     margin-bottom: 20px;
-    width: 150px;
-    height: 150px;
+    width: 215px;
+    height: 215px;
 }
 /*Aqui mudamos o tamanho do texto do título da barra lateral para 14px e cor verde, e a margem externa superior de 20px.*/
 .sidebar h3{
     font-size: 14px;
-    color: #006400;
+    color: #ffffff;
     margin-top: 20px;
+   
 }
 /*Aqui mudamos o tamanho da fonte dos itens da barra lateral para 12px.*/
 .sidebar ol{
@@ -70,11 +73,12 @@ body {
 }
 /*Aqui modificamos a cor de fundo do título das notícias para cinza.*/
 .header2 {
-    background-color: #DCDCDC;
+    background-color: #ffdafe;
 }
-/*Aqui estilizamos a cor do título das notícias para verde, as margens inferior e superior automáticas, margem esquerda externa de 10px, margem interna de 5px de todos os lados, fonte tamanho 20px e sem negrito.*/
+/*Aqui estilizamos a cor do título das notícias para verde, as margens inferior e superior automáticas, margem esquerda externa de 10px, 
+margem interna de 5px de todos os lados, fonte tamanho 20px e sem negrito.*/
 .header2 h2{
-    color: #006400;
+    color: #361735;
     margin-bottom: auto;
     margin-top: auto;
     margin-left: 10px;
@@ -87,7 +91,7 @@ body {
     background-color: #FFFFFF;
     border-bottom: 20px;
     padding: 10px;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 /*Aqui inserimos uma borda de 1px preta de linha solida ao redor da imagem.
 Posicionamos a imagem à esquerda . Margens externas superior e direita de 10px,e 
@@ -95,9 +99,9 @@ inferior e esquerda de 0. Largura de 200px e altura de 200px*/
 .article img{
     border: 1px solid #000000;
     float: left;
-    margin: 10px 10px 0 -10px;
-    width: 200px;
-    height: 250px;
+    margin: 10px 10px 0px -10px;
+    width: 270px;
+    height: 380px;
 }
 /*Aqui estamos estilizando a cor do texto da noticia dentro da tag p.*/
 .article p{
@@ -112,6 +116,6 @@ inferior e esquerda de 0. Largura de 200px e altura de 200px*/
 .clear{
     clear: both;
     font-size: 12px;
-    color:#006400;
+    color:#361735;
     text-align: center;
 }
