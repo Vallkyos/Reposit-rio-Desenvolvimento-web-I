@@ -1,0 +1,200 @@
+body {
+    width: 100vw; /*Aqui configuramos a largura em 100% da tela visível.*/
+    height: 100vh; /*Aqui configuramos a altura em 100% da tela visível.*/
+    display: flex; /*Aqui definimos que os elementos do body podem ficar em
+    diferentes posições.*/
+    justify-content: center; /*Aqui estamos alinhando horizontalmente no centro os
+    elementos do body.*/
+    align-items: center;/*Aqui estamos alinhando verticalmente no centro os elementos
+    do body.*/
+    background-color: #FFFFFF; /*Aqui definimos o fundo na cor branco.*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
+    'Unicode', 'Geneva', Verdana, sans-serif; /*Aqui definimos as possíveis fontes para
+    o navegador interpretar.*/
+}
+    
+.container {
+    width: 80vw; /*Aqui definimos a largura em 80% da tela visível.*/
+    height: 80vh; /*Aqui definimos a altura em 80% da tela visível.*/
+    display: flex; /*Aqui definimos que os elementos do body podem ficar em
+    diferentes posições.*/
+    box-shadow: 5px 5px 10px #DCDCDC; /*Fizemos uma sombra ao redor do container, o
+    1º valor é o deslocamento horizontal da sombra, o 2º é o deslocamento vertical da
+    sombra, o 3º é o desfoque da sombra e o 4º é a cor da sombra.*/
+}
+    
+.form-img {
+    width: 50vw; /*Aqui definimos a largura em 50% da tla visível.*/
+    display: flex; /*Aqui definimos que os elementos internos podem ficar em
+    diferentes posições.*/
+    justify-content: center; /*Aqui estamos alinhando horizontalmente no centro.*/
+    align-items: center; /*Aqui estamos alinhando verticalmente no centro.*/
+    background-color: #006400; /*Aqui definimos a cor de fundo verde.*/
+    padding: 16px; /*Aqui definimos uma margem interna de todos os lados de 16px.*/
+}
+    
+.form-img img {
+    width: 450px; /*Aqui definimos a largura em 450px.*/
+    height: 450px; /*Aqui definimos a altura em 450px.*/
+}
+    
+.form {
+    width: 50vw; /*Aqui definimos a largura em 50% da tela visível.*/
+    display: flex; /*Aqui definimos que os elementos internos podem mudar de
+    posição.*/
+    justify-content: center; /*Alinhamento horizontal no centro.*/
+    align-items: center; /*Alinhamento vertical no centro.*/
+    flex-direction: column; /*Definimos a direção dos elementos para colunas.*/
+    background-color: #FFFFFF; /*Fundo na cor branco.*/
+    padding: 50px; /*Margem interna de 50px de todos os lados.*/
+}
+    
+.form-header {
+    margin-top: 15px; /*Margem superior externa de 15px.*/
+    display: flex; /*Definimos que os elementos internos podem mudar de posição.*/
+    justify-content: space-between; /*Alinhamento horizontal com um espaço entre os
+    elementos.*/
+}
+    
+.login-button {
+    display: flex; /*Definimos que os elementos internos podem mudar de posição.*/
+    align-items: center; /*Alinhamento vertical no centro.*/
+}
+    
+.login-button button {
+    border: none; /*Tiramos a borda do botão.*/
+    background-color: #006400; /*Mudamos a cor do botão para verde.*/
+    font-weight: bold; /*Fonte em negrito.*/
+    color: #FFFFFF; /*Cor da fonte branco.*/
+    padding: 8px 16px; /*Margem interna superior e inferior de 8px e esquerda e
+    direita de 16px.*/
+    border-radius: 5px; /*Arrendondamos as quinas do botão.*/
+    cursor: pointer; /*Definimos o tipo de cursor que aparecerá quando passarmos o
+    mouse no botão.*/
+}
+    
+.login-button button:hover{
+    background-color: #087408; /*Aqui mudamos a cor do botão quando o mouse passar
+    por cima dele.*/
+}
+    
+.input-group {
+    display: flex; /*Definimos que os elementos internos podem mudar de posição.*/
+    flex-wrap: wrap; /*Quebramos a linha entre os elementos para eles caberem no
+    espaço desejado.*/
+    justify-content: space-between; /*Alinhamos os inputs com um espaço entre eles.*/
+    padding: 16px 0; /*Margem interna superior e inferior de 16px e esquerda e
+    direita 0.*/
+}
+    
+.input-box {
+    display: flex; /*Definimos que os elementos internos podem mudar de posição.*/
+    flex-direction: column; /*Definimos a direção dos elementos para colunas.*/
+}
+    
+.input-box input {
+    margin: 10px 0; /*Margem externa superior e inferior de 10px e esquerda e direita
+    de 0.*/
+    padding: 13px 19px; /*Margem interna superior e inferior de 13px e esquerda e
+    direita de 19px.*/
+    border: none; /*Sem borda.*/
+    border-radius: 10px; /*Arredondamento das quinas das caixas de texto.*/
+    box-shadow: 2px 2px 6px #D3D3D3; /*Sombreamento ao redor das caixas.*/
+}
+
+.input-box input:focus-visible{
+    outline: 2px solid #5B7cc2;
+}
+
+.input-box input:hover{
+    background-color: #f5f5f5;
+}
+
+.input-box label, gender-title h6{
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.input-box input::placeholder{
+    color: #D3D3D3;
+}
+
+.gender-group {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+
+.gender-input{
+    display: flex;
+    align-items: center;
+}
+ 
+.gender-input input{
+    margin-right: 6px;
+}
+
+.gender-input label{
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.register-button button{
+    width: 35vw;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #006400;
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.register-button button:hover{
+    background-color: #087408;
+}
+
+
+/*Aqui estamos configurando o layout para ficar responsivo.
+As configurações serão executadas quando tela estiver na largura maxima de até 1080px*/
+@media screen and (max-width: 1080px){
+    .form-img {
+    display: none;/*Aqui ocultamos a imagem da tela*/
+    }
+    .container{
+        width: 50vw;/*aqui estamos diminuindo a largura do container*/
+    }
+    .form{
+        width: 100vw;/*Aqui estamos configurando o formulario para ocupar todo o espaço ja que a imagem que foi ocultado*/
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container{
+        width: 90vw;/*Aumentamos a largura do container par 90% do espaço disponivel*/
+        height: auto;/*Aultura do container automática*/
+    }
+    .input-group{
+        flex-direction: column;/*As caixas de texto se posicionarão em colunas.*/
+        flex-wrap: nowrap;/*Mantera a ordem da caixa de texto*/
+        overflow-y: scroll;/*Cria uma barra de rolagem na vertical*/
+        max-height: 160px;/*Altura maxima de 160px*/
+        padding-right: 80px;/*margem interna direita de 80px*/
+    }
+    .gender-inputs{
+        margin-top: 30px;/*Margem externa superior de 30px*/
+    }
+    .gender-group{
+        flex-direction: column;/*As bolinhas de marcação se posicionarçao em coluna*/
+    }
+    .gender-input{
+        margin-top: 8px;/*Margem externa superior de 8px*/
+    }
+}
+
