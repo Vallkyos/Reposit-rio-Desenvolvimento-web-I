@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-board {
+    width: 100%;
+    height: 500px;
+    border-bottom: 15px solid #00ba22;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: "assets/img/cenario.gif";
+}
+
+.cenario{
+    width: 100%;
+    height: 500px;
+    position:absolute;
+}
+
+.predio{
+    position: absolute;
+    bottom: 0;
+    width: 90px;
+    right: -90px;
+    animation: predio-animation 1.5s infinite linear;
+}
